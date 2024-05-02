@@ -1,63 +1,110 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
-        *{
-            background-color: black;
-        }
-        h1{
-            color: white;
-            font-family: "Agbalumo", system-ui;
-            font-weight: 400;
-            font-style: normal;
-            text-align: center;
-            text-decoration: underline;
-        }
-        p,footer{
-            color: #ccc90a;
-            font-family: "Agbalumo", system-ui;
-            font-weight: 400;
-            font-style: normal;
-            text-align: center;
-            font-size: 30px;
-            text-align: left;
-            margin-top: 90px;
-
-        }
-        img{
-            width: 150px;
-            height: 160px;
-            margin-left: 860px;
-            margin-top: -600px;
-            border-radius: 80px;
-            border-width: 2px;
-            border-color: #ccc90aaa;
-        }
-        .description{
-            color: aliceblue;
-            margin-left: 150px;
-        }
-        .image{
-            margin-top: 150px;
-        }
-    </style>
+    <title>lets do some survey</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="page">
-        <h1>WELCOME TO BLOWJOB SERVICE </h1>
-    </div>
-    <span class="description">
-        <h2>Give and take service Available .. .</h2>
-    </span>
-    <span class="image">
-        
-    </span>
-    <footer>
-        This is my underdeveloped website later on im going to implement css and increase strebgth
-    </footer>
+    
+        <h1> <center> survey form </center></h1>
+        <br>
+        <h2> <center>lets us know how we can improve freeCodeCamp </center></h2>
+        <br>
+        <form action="post"></form>
+        <br>
+        <div>
+            <label for="username">Name</label>
+            <input type="text" id="username" placeholder="Ente your name" name="username"></input>
+        </div>
+        <br>
+        <div>
+            <label for="email"> Email</label>
+            <input type="string" id="email" placeholder="Enter your email" name="email">
+
+        </div>
+        <br>
+
+        <div>
+            <label for="age"> Age</label>
+            <input type="number" id="age" name="age" placeholder="enter your age ">
+
+        </div>
+
+        <br>
+
+        <div>
+            <label for="role"> which option do you want to chosse</label>
+            <select name="role" ,>
+                <option value="student">student</option>
+                <option value="teacher">teacher</option>
+
+            </select>
+
+        </div>
+        <br>
+
+        <div>
+            <label class="whi" for="freeCodeCamp"> how likely is that you would recommend freeCodeCamp to a
+                friend?</label>
+        </div>
+        <div>
+            <input type="radio" name="freeCodeCamp" id="Definitely" value="not sure">
+            <label for="Definitely">Definitely</label>
+
+        </div>
+        <div>
+            <input type="radio" name="freeCodeCamp" id="not sure" value="not sure">
+            <label for="not sure"> not sure</label>
+        </div>
+        <div>
+            <input type="radio" name="freeCodeCamp" id="no">
+            <label for="not sure"> no</label>
+        </div>
+
+
+        </div>
+        <br>
+
+
+        <div>
+            <label class="hi" for="role"> which option do you want to chosse</label>
+            <select name="role">
+                <option value="">...</option>
+                <option value=" teacher">......</option>
+
+            </select>
+
+        </div>
+        <br>
+
+        <div>
+            <label for="freeCodeCamp"> Things that should be improved in the future </label>
+        </div>
+        <div>
+            <input type="radio" name="hii" id="Definitely" value="front-end project">
+            <label for="front-end project">front-end project</label>
+
+        </div>
+        <div>
+            <input type="radio" name="hii" id="not sure" value="back-end project">
+            <label for="back-end project"> back-end project</label>
+        </div>
+        <div>
+            <input type="radio" name="hii" id="no" value="data visualization ">
+            <label for="data visualization"> data visualization</label>
+        </div>
+
+
+
+
+
+
+
+    
 </body>
+
 </html>
